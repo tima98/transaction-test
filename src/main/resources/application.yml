@@ -1,0 +1,18 @@
+server:
+  port: 8085
+
+spring:
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    open-in-view: false
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        show-sql: true
+        format_sql: true
+  datasource:
+    password: ztxa
+    username: ztxa
+    url: jdbc:postgresql://localhost:5432/test
